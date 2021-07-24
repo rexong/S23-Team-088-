@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 108, 199, 0.64)), to(rgba(184, 222, 253, 0.322)));
+  background: linear-gradient(to right, rgba(39, 108, 199, 0.64), rgba(184, 222, 253, 0.322));
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-left: 5rem;
+  color: #004c85;
+  font-size: 2.5rem;
+}
+
+.logo-btn {
+  text-decoration: none;
+  color: #004c85;
+}
+/*# sourceMappingURL=answer2.css.map */

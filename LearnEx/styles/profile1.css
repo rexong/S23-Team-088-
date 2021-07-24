@@ -1,0 +1,29 @@
+.float-con {
+  border: 3px solid #ffffff;
+  height: 50%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon {
+  height: 33px;
+  width: 33px;
+}
+
+.float-1 {
+  width: 10%;
+  float: left;
+  padding: 20px;
+}
+.float-2 {
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+.float-3 {
+  width: 25%;
+  float: left;
+  padding: 20px;
+}

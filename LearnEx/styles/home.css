@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(39, 108, 199, 0.64)), to(rgba(184, 222, 253, 0.322)));
+  background: linear-gradient(to right, rgba(39, 108, 199, 0.64), rgba(184, 222, 253, 0.322));
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-left: 5rem;
+  color: #004c85;
+  font-size: 2.5rem;
+}
+
+.logo-btn {
+  text-decoration: none;
+  color: #004c85;
+}
+
+.big-container {
+  margin: 2.5vh 0;
+  height: 80vh;
+}
+
+.container {
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  width: 20%;
+  height: 60%;
+  padding: 1rem 0.5rem;
+  border: 1px solid #004c85;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 2px 4px 5px #004c85;
+          box-shadow: 2px 4px 5px #004c85;
+}
+
+.box h2 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  color: #004c85;
+}
+
+.box button {
+  padding: 0.5rem 1rem;
+  background-color: #ffffff;
+  border: 1px solid #004c85;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.view-btn {
+  text-decoration: none;
+  color: #004c85;
+}
+
+.box button:hover {
+  border: none;
+  background-color: #004c85;
+  color: #ffffff;
+}
+
+.view-btn:hover {
+  color: #ffffff;
+}
+
+.title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 28px;
+  color: #004c85;
+}
+/*# sourceMappingURL=home.css.map */

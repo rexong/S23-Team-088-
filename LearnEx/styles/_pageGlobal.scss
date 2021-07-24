@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+$text1: #ffffff;
+$gradient1: rgba(39, 108, 199, 0.64);
+$gradient2: rgba(184, 222, 253, 0.322);
+$border: #004c85;
+$text2: #005291;
+
+header {
+  background: linear-gradient(to right, $gradient1, $gradient2);
+  height: 15vh;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 5rem;
+  color: $border;
+  font-size: 2.5rem;
+}
+
+.logo-btn {
+  text-decoration: none;
+  color: $border;
+}

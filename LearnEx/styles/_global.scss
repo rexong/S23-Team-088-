@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+$text1: #ffffff;
+$gradient1: rgba(39, 108, 199, 0.64);
+$gradient2: rgba(184, 222, 253, 0.322);
+$border: #004c85;
+$text2: #005291;
+
+h2 {
+  color: $text2;
+  font-size: 90px;
+}
+
+label {
+  color: $text2;
+  font-size: 24px;
+}
+
+button {
+  width: 80%;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: $text2;
+}
+
+h4 {
+  font-size: 20px;
+}

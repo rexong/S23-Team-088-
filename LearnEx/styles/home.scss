@@ -1,0 +1,64 @@
+@import "pageGlobal";
+
+.big-container {
+  margin: 2.5vh 0;
+  height: 80vh;
+}
+
+.container {
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 20%;
+  height: 60%;
+  padding: 1rem 0.5rem;
+  border: 1px solid $border;
+  border-radius: 0.5rem;
+  box-shadow: 2px 4px 5px $border;
+}
+
+.box h2 {
+  font-size: 1.8rem;
+  padding-bottom: 1rem;
+  color: $border;
+}
+
+.box button {
+  padding: 0.5rem 1rem;
+  background-color: $text1;
+  border: 1px solid $border;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.view-btn {
+  text-decoration: none;
+  color: $border;
+}
+
+.box button:hover {
+  border: none;
+  background-color: $border;
+  color: $text1;
+}
+
+.view-btn:hover {
+  color: $text1;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  color: $border;
+}

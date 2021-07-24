@@ -1,0 +1,78 @@
+@import "global";
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient($gradient1, $gradient2);
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 80%;
+}
+
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+}
+
+.wrapper {
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid $border;
+  border-radius: 20px;
+}
+
+.sub-wrapper {
+  margin: 2rem;
+
+  input {
+    margin-top: 10px;
+  }
+}
+
+select,
+.radio-wrapper {
+  margin-top: 10px;
+}
+
+.textbox,
+select {
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.radio-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  margin: 0 0 0 40px;
+  padding: 0.5rem;
+  background-color: $text2;
+  color: $text1;
+}
+
+.form-foot {
+  display: flex;
+  justify-content: flex-end;
+  width: 35%;
+}
+
+.signUp-btn {
+  color: $text1;
+}

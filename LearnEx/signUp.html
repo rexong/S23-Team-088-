@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up - LearnEx</title>
+  <link rel="stylesheet" href="/styles/signup.css" />
+</head>
+
+<body>
+  <section>
+    <div class="form-wrapper">
+      <div class="wrapper">
+        <form>
+          <div class="email-form sub-wrapper">
+            <label for="email">Email</label>
+            <input class="textbox" id="email" type="email" required />
+          </div>
+          <div class="user-form sub-wrapper">
+            <label for="username">Username</label>
+            <input class="textbox" id="username" type="text" name="username" required />
+          </div>
+          <div class="password-form sub-wrapper">
+            <label for="password">Password</label>
+            <input class="textbox" id="password" type="password" name="password" required />
+          </div>
+          <div class="password2-form sub-wrapper">
+            <label for="password2">Confirm Password</label>
+            <input class="textbox" id="password2" type="password" name="password2" required />
+          </div>
+          <div class="school-form sub-wrapper">
+            <label for="school">School</label><br />
+            <select name="schools" id="schools">
+              <option value="PJC">PJC</option>
+              <option value="CJC">CJC</option>
+              <option value="JJC">JJC</option>
+              <option value="AJC">AJC</option>
+              <option value="YJC">YJC</option>
+            </select>
+          </div>
+
+          <div class="school-form sub-wrapper">
+            <label for="subject">Subject</label><br />
+            <select name="schools" id="schools">
+              <option value="PJC">
+                PCME (Physics, Chemistry, Mathematics, Economics)
+              </option>
+              <option value="CJC">
+                PXME (Physics, Computing, Mathematics, Economics)
+              </option>
+              <option value="JJC">
+                BCME (Biography, Chemistry, Mathematics, Economics)
+              </option>
+              <option value="AJC">
+                GELM (Geography, Economics, Literature, Mathematics)
+              </option>
+              <option value="YJC">
+                HELM (History, Economics, Literature, Mathematics)
+              </option>
+            </select>
+          </div>
+
+          <div class="category-form sub-wrapper">
+            <label for="category">Category</label>
+            <div class="radio-wrapper">
+              <div class="student-wrapper">
+                <input type="radio" id="student" name="category" value="student" />
+                <label for="html">Student</label>
+              </div>
+              <div class="teacher-wrapper">
+                <input type="radio" id="teacher" name="category" value="teacher" />
+                <label for="css">Teacher</label>
+              </div>
+            </div>
+          </div>
+
+          <button value="Send" type="submit">
+            <a href="/main.html" class="signUp-btn"> Sign Up </a>
+          </button>
+        </form>
+      </div>
+      <div class="form-foot">
+        <h4>
+          <a href="/index.html"> Back </a>
+        </h4>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
